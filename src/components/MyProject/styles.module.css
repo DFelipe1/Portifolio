@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.button {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}

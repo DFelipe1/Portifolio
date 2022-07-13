@@ -1,0 +1,134 @@
+.container {
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card{
+    width: 100%;
+    border-radius: 20px;
+
+    background-color: var(--bg-cards);
+
+    padding: 30px;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 128px;
+    height: 128px;
+
+    border-radius: 50%;
+    border: 2px solid #00ff00;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover; 
+}
+
+.profile .title {
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 700;
+    display: block;
+}
+
+.profile .subtitle {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.infoContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.infoContent .links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.techGroup {
+    max-width: 100%; 
+    padding-left:10px;
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.techGroup .tech {
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    letter-spacing: 1px;
+
+    background-color: #6E6C85;
+}
+
+.educations {
+    padding-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.education span {
+    display: block;
+}
+
+.education .subtitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.education .duraction {
+    font-size: 15px;
+    font-weight: 300;
+
+    margin: 3px 0;
+}
+
+.education .course {
+    font-size: 15px;
+    font-weight: 700;
+}

@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    padding: 30px;
+    background-color: var(--bg-cards);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin-bottom: 20px;
+}
+
+.description {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div {
+    display: flex;
+    gap: 16px;
+}
+
+.footer span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #e7de79;
+    border: 2px solid #837e9f;
+}

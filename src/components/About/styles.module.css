@@ -1,0 +1,17 @@
+.container {
+    padding: 50px;
+    background: var(--bg-cards);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 35px; 
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 18px;
+    text-align: justify;
+}
